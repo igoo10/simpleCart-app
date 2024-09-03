@@ -1,0 +1,95 @@
+
+/* Custom Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .shopping-card-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .total-price {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .total {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .list-products .card {
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .list-products .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .unit-price {
+    color: #dc3545;
+    font-size: 1.2rem;
+  }
+  
+  .quantity {
+    font-size: 1.2rem;
+    margin: 0 10px;
+  }
+  
+  .fas {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .fas.fa-plus-circle {
+    color: #28a745;
+  }
+  
+  .fas.fa-minus-circle {
+    color: #dc3545;
+  }
+  
+  .fas.fa-trash-alt {
+    color: #dc3545;
+  }
+  
+  .fas.fa-heart {
+    color: #ffc107;
+  }
+  
+  .card-body > div {
+    margin-top: 15px;
+  }
+  
+  @media (min-width: 768px) {
+    .list-products {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 30%;
+    }
+  }
+  
